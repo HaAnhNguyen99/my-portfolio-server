@@ -24,15 +24,16 @@
     "description": {
       "type": "blocks"
     },
-    "pj_preview_img": {
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }
