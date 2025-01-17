@@ -17,6 +17,12 @@
     },
     "GPA": {
       "type": "decimal"
+    },
+    "faculty": {
+      "type": "string"
+    },
+    "graduation_date": {
+      "type": "integer"
     }
   }
 }
