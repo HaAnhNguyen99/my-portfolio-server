@@ -46,6 +46,9 @@
       "relation": "oneToMany",
       "target": "api::position.position",
       "mappedBy": "project"
+    },
+    "team_size": {
+      "type": "integer"
     }
   }
 }
