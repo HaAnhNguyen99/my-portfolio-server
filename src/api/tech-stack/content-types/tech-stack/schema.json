@@ -4,7 +4,8 @@
   "info": {
     "singularName": "tech-stack",
     "pluralName": "tech-stacks",
-    "displayName": "tech stack"
+    "displayName": "tech stack",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -15,6 +16,17 @@
       "type": "string"
     },
     "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "hover_img": {
       "allowedTypes": [
         "images",
         "files",
